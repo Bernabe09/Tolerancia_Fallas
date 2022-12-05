@@ -2,7 +2,7 @@
 Este proyecto trata de un BOT que se gestiona por medio de una API de Telegram, todo por medio de de un mismo CHAT de telegram y tener una escalabilidad para al mmismo
 y tolerancia a fallas, algunas de las herramientas que se utilizamos fueron Docker, Kubernetes, Istio y por supuesto GitHub.
 
-<img height="100" alt="image" src="./imagenes/GitHub.jpg"><img height="100" alt="image" src="./imagenes/docker.png"><img height="100" alt="image" src="./imagenes/kubernetes.png"><img height="100" alt="image" src="./imagenes/istio.png">
+<img align="center" height="100" alt="image" src="./imagenes/GitHub.jpg"><img height="100" alt="image" src="./imagenes/docker.png"><img height="100" alt="image" src="./imagenes/kubernetes.png"><img height="100" alt="image" src="./imagenes/istio.png">
 
 
 # Introducción
@@ -39,17 +39,17 @@ Se planea crear un bot en telegram en el cual mediante un botón de “start” 
 
 *Telegram*: Utilizamos telegram por la gran cantidad de herramientas que nos proporciona de manera fácil, de igual manera se planea poder escalar a Whatsapp en un futuro ya que como sabemos es la app más frecuentemente utilizada.
 
-<img height="100" alt="image" src="./imagenes/telegram.png">
+<img align="center" height="100" alt="image" src="./imagenes/telegram.png">
 
 *BothFather*: Interactuar con BotFather consiste en intercambiar mensajes. Dale a“Start” y te aparecerán una serie de comandos. Cada uno te servirá para personalizar tu bot al máximo. Vamos a crear el bot ejecutando el comando /newbot o dando clic a dicho comando.
 
-<img height="100" alt="image" src="./imagenes/botf.jpg">
+<img align="center" height="100" alt="image" src="./imagenes/botf.jpg">
 
 # Pasos principales para la realizacion del proyecto
  ## Web Scraping
  En primera instancia lo que hacemos es conseguir los datos de la página web para poder trabajas con ellos, en este caso solo con el dato que requierimos el cual es el precio del producto, es muy sencillo el generar la lectura en este caso para el programa solo es necesario identificar un objeto, para este caso es necesario indicar al programa cual objeto de <i>HTML</i> es el que nos interesa. 
 
- <img height="300" alt="image" src="./imagenes/mercadoLibreModoProgramador.png">
+ <img align="center" height="300" alt="image" src="./imagenes/mercadoLibreModoProgramador.png">
 
 De este aparta obtendremos mas que nada el bloque donde se almacena el precio del producto, ya que es la unica instacia que ocupamos para saber si el precio bajo de valor o no.
 
@@ -63,8 +63,8 @@ En este aparatado configuramos nuestro bot con los datos y valores unicos que no
  - Token
  - Id  (identificador)
 
-<img height="150" alt="image" src="./imagenes/conf1.png">
+<img align="center" height="150" alt="image" src="./imagenes/conf1.png">
 
 Una ves obtenido este apartado lo agregaremos en la parte del codigo correspondiente, esto mas que nada para enlazar tanto el codigo ejecutable del VSCode y el bot de telegram.
 
- <img height="150" alt="image" src="./imagenes/conbot.png">
+ <img align="center" height="150" alt="image" src="./imagenes/conbot.png">
