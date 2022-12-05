@@ -9,15 +9,15 @@ y tolerancia a fallas, algunas de las herramientas que se utilizamos fueron Dock
  Para este proyecto usamos algunas herramientas que aprendimos en nuestro curso de tolerancia a fallas, e implementamos una herrmientas que que descubrimos durante el curso la cual es el <strong>WebScraping</strong> esta es una librería que podemos encontrar en el lenguaje de programación de <i><strong>Python</strong></i>, es una técnica que sirve para extraer información de uno o varios sitios webs de terceros.
  Tambien hacemos uso de una API de telegram que nos permite enlazar enviar notifacaciones al usuario en cuestión. Todo esto por supuesto escalandolo a contenedores,  llevandolo a otros servidores y a monitoriar el trafico entre ellos.
 # Requerimientos
- ###Principales herramientas utilizadas para este proyecto
+ ### Principales herramientas utilizadas para este proyecto
 
-####linea de codigo
+#### Linea de codigo
 
 * $ pip install BeautifulSoup
 * $ pip install webbrowser
 * $ pip install requests
 
-###¿Como funcionan estas herramientas?
+### ¿Como funcionan estas herramientas?
 
 *1.- BeautifulSoup*
 
