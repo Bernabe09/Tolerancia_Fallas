@@ -89,29 +89,29 @@ Kubernetes es una plataforma portable y extensible de código abierto para admin
 
 Es hora de generar un cluster con Kubernetes. En este caso con ayuda de digitalocean estaríamos creando nuestro cluster, para esto ingresamos a la página de ellos y seleccionaríamos el tipo de cluster que necesitáramos.
 
-<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Istio/Imagen1.png"></p>
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen1.png"></p>
 
 Se generaría una serie claves y documentos, los cuales se tendrían que agregar a nuestro proyecto.
 
-<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Istio/Imagen2.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen2.png"></p>
 
 Y lo configuramos.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen3.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen3.png"></p>
 
 revisaríamos los nodos.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
+<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
+<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
 
 Creamos el archivo de nuestro despliegue.
 
-<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
 
 Guardamos el archivo y aplicamos nuestro despliegue.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
+<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
 
 Creamos el servicio. Primero creamos el archivo. 
 
@@ -119,19 +119,19 @@ Creamos el servicio. Primero creamos el archivo.
 
 Establecemos todos estos parámetros de versión, tipo que sería parecido al archivo para el despliegue, también la metadata la configuración del selector, puerto.
 
-<p align="center"><img align="center" height="200" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
 
 Y corremos el archivo para aplicar el servicio. 
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen10.png"></p>
+<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Istio/Imagen10.png"></p>
 
 Consultamos el servicio.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
+<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
 
 Tendríamos la muestra de nuestro servicio ya ejecutado.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen12.png"></p>
+<p align="center"><img align="center" height="200" alt="image" src="./imagenes/Istio/Imagen12.png"></p>
 
 # Planeación Istio
 
@@ -139,35 +139,35 @@ Istio es una malla de servicios (es decir, una capa de redes de servicios modern
 
 El primer paso es generar a la instalación de Istio en nuestro clúster.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen1.png"></p>
+<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen1.png"></p>
 
 Se generará la descarga los manifiestos en nuestros clústeres.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen2.png"></p> 
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen2.png"></p> 
 
 Ya con esto tendríamos a Istio corriendo.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen3.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen3.png"></p>
 
 Es hora de correr los ejemplos, en este caso usaríamos 2 ejemplos de pequeñas apps, que se alojan en puertos.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
 
 Se crea el servicio. Hacemos lo mismo con la nueva app.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
+<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
 
 Y podemos revisar los pods, para ver los servicios desplegados.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen8.png"></p>
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen8.png"></p>
 
 Lo que podemos analizar sobre este mismos es que ya se están ingresando 2 contenedores en cada pod.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
 
 ## Kiali
 
@@ -177,7 +177,7 @@ En este punto ya esta funcionando Istio, pero de igual manera lo que podemos hac
 
 Nos abrirá una pestaña en nuestro navegador con el entorno.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
+<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
 
 Para poder demostrar el tramifico de los pods, vamos a ingresar un while a una de las apps.
 
