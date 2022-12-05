@@ -81,7 +81,7 @@ Una ves obtenido este apartado lo agregaremos en la parte del codigo correspondi
 
 <strong>Imagen por dentro.</strong>
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/ImagenPorDentro.png"></p>
+<p align="center"><img align="center" height="300" alt="image" src="./imagenes/ImagenPorDentro.png"></p>
 
 # Planeación Kubernertes
 
@@ -89,11 +89,11 @@ Kubernetes es una plataforma portable y extensible de código abierto para admin
 
 Es hora de generar un cluster con Kubernetes. En este caso con ayuda de digitalocean estaríamos creando nuestro cluster, para esto ingresamos a la página de ellos y seleccionaríamos el tipo de cluster que necesitáramos.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Imagen1.png"></p>
+<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Imagen1.png"></p>
 
-Es hora de generar un cluster con Kubernetes. En este caso con ayuda de digitalocean estaríamos creando nuestro cluster, para esto ingresamos a la página de ellos y seleccionaríamos el tipo de cluster que necesitáramos.
+Se generaría una serie claves y documentos, los cuales se tendrían que agregar a nuestro proyecto.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Imagen2.png"></p>
+<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Imagen2.png"></p>
 
 Y lo configuramos.
 
@@ -107,7 +107,7 @@ revisaríamos los nodos.
 
 Creamos el archivo de nuestro despliegue.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Imagen6.png"></p>
+<p align="center"><img align="center" height="300" alt="image" src="./imagenes/Imagen6.png"></p>
 
 Guardamos el archivo y aplicamos nuestro despliegue.
 
@@ -119,7 +119,7 @@ Creamos el servicio. Primero creamos el archivo.
 
 Establecemos todos estos parámetros de versión, tipo que sería parecido al archivo para el despliegue, también la metadata la configuración del selector, puerto.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Imagen9.png"></p>
+<p align="center"><img align="center" height="200" alt="image" src="./imagenes/Imagen9.png"></p>
 
 Y corremos el archivo para aplicar el servicio. 
 
