@@ -68,3 +68,17 @@ En este aparatado configuramos nuestro bot con los datos y valores unicos que no
 Una ves obtenido este apartado lo agregaremos en la parte del codigo correspondiente, esto mas que nada para enlazar tanto el codigo ejecutable del VSCode y el bot de telegram.
 
  <p align="center"><img align="center" height="200" alt="image" src="./imagenes/conbot.png"></p>
+ 
+ # Implementacion Docker
+ 
+ Docker es un sistema operativo (o runtime) para contenedores. El motor de Docker se instala en cada servidor en el que desee ejecutar contenedores y proporciona un conjunto sencillo de comandos que puede utilizar para crear, iniciar o detener contenedores.
+ 
+<p align="center"><img align="center" height="250" alt="image" src="./imagenes/CreacionImagen.png"></p>
+
+Imagen ya cargada dentro de la aplicación de Docker.
+
+<p align="center"><img align="center" height="250" alt="image" src="./imagenes/ImagenCreada.png"></p>
+
+Imagen por dentro.
+
+<p align="center"><img align="center" height="250" alt="image" src="./imagenes/ImagenPorDentro.png"></p>
