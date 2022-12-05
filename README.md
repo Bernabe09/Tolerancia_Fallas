@@ -191,3 +191,12 @@ También tenemos la posibilidad de llevar las estadísticas que obtenemos, lleva
 
 Y nos mostraría un gráfico de nuestros servicios.
 
+# Bibliografía
+<ul>
+ <li>Rad, B. B., Bhatti, H. J., & Ahmadi, M. (2017). An introduction to docker and analysis of its performance. International Journal of Computer Science and Network Security (IJCSNS), 17(3), 228.</li>
+ <li>Morales Tapias, C. C. (2022). Despliegue y gestión de microservicios usando Istio.</li>
+ <li>Nogués García, J. (2018). Orquestación de contenedores con Kubernetes (Bachelor's thesis).</li>
+ <ul>
+
+
+
