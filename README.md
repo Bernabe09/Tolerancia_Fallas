@@ -75,10 +75,10 @@ Una ves obtenido este apartado lo agregaremos en la parte del codigo correspondi
  
 <p align="center"><img align="center" height="250" alt="image" src="./imagenes/CreacionImagen.png"></p>
 
-Imagen ya cargada dentro de la aplicación de Docker.
+<strong>Imagen ya cargada dentro de la aplicación de Docker.</strong>
 
 <p align="center"><img align="center" height="250" alt="image" src="./imagenes/ImagenCreada.png"></p>
 
-Imagen por dentro.
+<strong>Imagen por dentro.</strong>
 
 <p align="center"><img align="center" height="250" alt="image" src="./imagenes/ImagenPorDentro.png"></p>
