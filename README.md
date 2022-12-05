@@ -101,17 +101,17 @@ Y lo configuramos.
 
 revisaríamos los nodos.
 
-<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
+<p align="center"><img height="25" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
 
-<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
+<p align="center"><img height="40" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
 
 Creamos el archivo de nuestro despliegue.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
 
 Guardamos el archivo y aplicamos nuestro despliegue.
 
-<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
+<p align="center"><img align="center" height="40" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
 
 Creamos el servicio. Primero creamos el archivo. 
 
@@ -119,7 +119,7 @@ Creamos el servicio. Primero creamos el archivo.
 
 Establecemos todos estos parámetros de versión, tipo que sería parecido al archivo para el despliegue, también la metadata la configuración del selector, puerto.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
 
 Y corremos el archivo para aplicar el servicio. 
 
@@ -127,7 +127,7 @@ Y corremos el archivo para aplicar el servicio.
 
 Consultamos el servicio.
 
-<p align="center"><img align="center" height="75" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
 
 Tendríamos la muestra de nuestro servicio ya ejecutado.
 
@@ -151,15 +151,15 @@ Ya con esto tendríamos a Istio corriendo.
 
 Es hora de correr los ejemplos, en este caso usaríamos 2 ejemplos de pequeñas apps, que se alojan en puertos.
 
-<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen4.png"></p>
 
-<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen5.png"></p>
 
 Se crea el servicio. Hacemos lo mismo con la nueva app.
 
-<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen6.png"></p>
 
-<p align="center"><img align="center" height="150" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen7.png"></p>
 
 Y podemos revisar los pods, para ver los servicios desplegados.
 
@@ -167,7 +167,7 @@ Y podemos revisar los pods, para ver los servicios desplegados.
 
 Lo que podemos analizar sobre este mismos es que ya se están ingresando 2 contenedores en cada pod.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
+<p align="center"><img align="center" height="50" alt="image" src="./imagenes/Istio/Imagen9.png"></p>
 
 ## Kiali
 
@@ -177,7 +177,7 @@ En este punto ya esta funcionando Istio, pero de igual manera lo que podemos hac
 
 Nos abrirá una pestaña en nuestro navegador con el entorno.
 
-<p align="center"><img align="center" height="100" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
+<p align="center"><img align="center" height="25" alt="image" src="./imagenes/Istio/Imagen11.png"></p>
 
 Para poder demostrar el tramifico de los pods, vamos a ingresar un while a una de las apps.
 
@@ -185,11 +185,9 @@ Para poder demostrar el tramifico de los pods, vamos a ingresar un while a una d
 
 Y nos empezara a detectar el tráfico.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen13.png"></p>
-
 También tenemos la posibilidad de llevar las estadísticas que obtenemos, llevarla con grafana.
 
-<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen14.png"></p>
+<p align="center"><img align="center" height="250" alt="image" src="./imagenes/Istio/Imagen13.png"></p>
 
 Y nos mostraría un gráfico de nuestros servicios.
 
