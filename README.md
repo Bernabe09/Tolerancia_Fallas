@@ -33,7 +33,7 @@ Es una biblioteca HTTP para el lenguaje de programación Python. El
 objetivo del proyecto es hacer que las solicitudes HTTP sean más simples y
 amigables para los humanos.
 
-###¿Como se espera escalar?
+### ¿Como se espera escalar?
 
 Se planea crear un bot en telegram en el cual mediante un botón de “start” nos permitirá realizar la consulta sin tener que compilarlo desde el editor, el cual nos brinda un token en la consulta para validar la identificación del usuario.
 
@@ -197,6 +197,9 @@ Y nos mostraría un gráfico de nuestros servicios.
  <li>Morales Tapias, C. C. (2022). Despliegue y gestión de microservicios usando Istio.</li>
  <li>Nogués García, J. (2018). Orquestación de contenedores con Kubernetes (Bachelor's thesis).</li>
  <ul>
-
+ 
+ # Link video
+ 
+https://www.youtube.com/watch?v=eWT51uPJbFI
 
 
